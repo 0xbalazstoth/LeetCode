@@ -12,7 +12,6 @@ public class Solution {
             
             bool y = i < word.Length && word[i] == ch;
             if (y) {
-                // abcd efd -> // dcba efd
                 string revTemp = word.Substring(0, i + 1);
                 
                 for (int j = revTemp.Length - 1; j >= 0; j--) {
