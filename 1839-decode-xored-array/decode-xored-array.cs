@@ -3,10 +3,7 @@ public class Solution {
         int[] decoded = new int[encoded.Length + 1];
         int n = decoded.Length;
 
-        decoded[0] = first; // 1
-        // arr[0] ^ encoded[0] = 1 ^ 1 -> 0
-        // arr[1] ^ encoded[1] = 0 ^ 2 -> 2
-        // arr[2] ^ encoded[2] = 2 ^ 3 -> 1
+        decoded[0] = first;
         
         for (int i = 1; i < n; i++)
         {
